@@ -61,12 +61,4 @@ public class Ejemplar {
         this.estado = estado;
     }
 
-    @Override
-    public String toString() {
-        return "Ejemplar{" +
-                "id=" + id +
-                ", isbn=" + isbn.getIsbn() +
-                ", estado='" + estado + '\'' +
-                '}';
-    }
 }
